@@ -12,7 +12,7 @@ const Buttons = ({on_press,btn_text}) => {
         </TouchableOpacity>
     )
 }
-
+//israa
 export default Buttons
 
 const styles = StyleSheet.create({})
