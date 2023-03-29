@@ -20,7 +20,7 @@ const colorMap = [{
   tileColor: "grey",
   backgroundColor: "rgba(0,0,0,0.7)"
 }, {
-  //lavender
+  //lavender rawan
   tileColor: "#B2D7AC",
   backgroundColor: "#AEA6E2"
 }];
