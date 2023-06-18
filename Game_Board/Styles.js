@@ -3,7 +3,7 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    margin: 10,
+    margin: 3,
     justifyContent: "space-between",
   },
   timerContainer: {

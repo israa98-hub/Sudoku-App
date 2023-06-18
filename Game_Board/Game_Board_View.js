@@ -1,9 +1,9 @@
 import { View, Button } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { Header_Component } from "../Header_Component";
+import { Header_Component } from "./Header_Component";
 import { Actions_Component } from "./Actions_Component";
 import { Grid } from "./Grid";
-import { styles } from "../Styles";
+import { styles } from "./Styles";
 import { Pieces_Component } from "./Pieces_Component";
 import Lives from "./Lives";
 import { GameOver_Component } from "./GameOver_Component";
@@ -260,12 +260,12 @@ const Game_Board_View = (props = { navigation }) => {
         setTarget(undefined);
         if (board.flat().join("") === solution.flat().join("")) {
            setSuccessModal(true);
-           setEndModal(true);
+           //setEndModal(true);
            updateStats();
         }
         //to test success modal comment out all above
-        // setSuccessModal(true);
-        // setEndModal(true);
+        //setSuccessModal(true);
+        //setEndModal(true);
       } else {
         playInvalidTileSound();
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
